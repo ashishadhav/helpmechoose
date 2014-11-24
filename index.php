@@ -128,7 +128,7 @@ strong {
 
     <div class="loginForm" style="background: none repeat scroll 0 0 white;padding: 25px;text-align: center;width: 400px;margin: 0 auto;border: 1px solid #ccc;-moz-box-shadow: 5px 5px 8px 2px rgba(0,0,0,0.25);-webkit-box-shadow: 5px 5px 8px 2px rgba(0,0,0,0.25);box-shadow: 5px 5px 8px 2px rgba(0,0,0,0.25);border-radius: 4px;position: relative;box-sizing: border-box;">
             <div class="loginLabel" style="text-align: center;font-size: 18px;font-weight: bold;color: #555;">
-              <div style="display: inline-block;"> Connect Account </div>
+              <div style="display: inline-block;"> Connect Account (<a style="color:blue;" href="./about.html" target="_blank">?</a>)</div>
           </div>
     <div class="loginError"></div>
      <div id="login">
@@ -151,6 +151,9 @@ strong {
 			<a class="google-before"><span class="zocial-googleplus"></span></a>
 			<button class="google">Google+</button>
 
+		</p>
+		<p>
+			<a href="./fb-post.html" style="text-decoration:underline;">Login Later</a>
 		</p>
 
 	</div> <!-- end login -->
