@@ -1,15 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Send - HelpMeChoose</title>
+	<title>HelpMeChoose - Login</title>
+	<link rel="icon" href="http://global.rakuten.com/en/favicon.ico">
 
-
+<link rel="stylesheet" type="text/css" href="//weloveiconfonts.com/api/?family=zocial">
 <style type="text/css">
-	@charset "utf-8";
-
-@import url(http://weloveiconfonts.com/api/?family=zocial);
-
-/* zocial */
+	@charset "utf-8";/* zocial */
 [class*="zocial-"]:before {
   font-family: 'zocial', sans-serif;
 }
@@ -19,7 +16,7 @@
 /* ---------- GENERAL ---------- */
 
 body {
-	background-color: #f4f4f4;
+
 	color: #5a5656;
 	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 	font-size: 16px;
@@ -114,12 +111,12 @@ strong {
 
 <div id="helpmechoose_canvas" style="left:0;right:0;top:0;position:absolute;color:#333333;z-index:99999999999!important;font-family:Arial,Helvetica,sans-serif;font-size:12px;">
     <div style="-webkit-box-shadow: 0 0 9px rgba(0, 0, 0, 0.35), 0 -1px 0 rgba(0, 0, 0, 0.2);box-shadow: 0 0 9px rgba(0, 0, 0, 0.35), 0 -1px 0 rgba(0, 0, 0, 0.2);
--moz-box-shadow: 0 0 9px rgba(0, 0, 0, 0.35), 0 -1px 0 rgba(0, 0, 0, 0.2);height:90px;border-bottom:1px solid #ccc; width: 100%; z-index: 9999; background-color:#f6f6f6;left:0; position: fixed;"> 
+-moz-box-shadow: 0 0 9px rgba(0, 0, 0, 0.35), 0 -1px 0 rgba(0, 0, 0, 0.2);height:90px;border-bottom:1px solid #ccc; width: 100%; z-index: 9999; left:0; position: fixed;"> 
        
         <div> 
             
             <div id="logo" style="float:center;cursor:pointer;top: 15px;left: 45%;position: fixed;margin-bottom: 0;margin-left: -66px;margin-top: 0;z-index: 6000;height: auto;width: auto;">
-                <img style="width:206px;height:70px;" src="//localhost/suggestc/pluginassets/logo.png" />
+                <img style="width:190px;height:70px;" src="//localhost/suggestc/pluginassets/logo.png" />
             </div> 
             
             <div style="clear:both;"></div>
@@ -145,14 +142,14 @@ strong {
 
 
       </a>
-			<button class="facebook" onclick="checkLoginState();">Login Using Facebook</button>
+			<button class="facebook" onclick="checkLoginState();">Facebook</button>
 
 		</p>
 
 		<p>
 
 			<a class="google-before"><span class="zocial-googleplus"></span></a>
-			<button class="google">Login Using Google+</button>
+			<button class="google">Google+</button>
 
 		</p>
 

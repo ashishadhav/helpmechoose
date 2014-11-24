@@ -74,10 +74,10 @@ z-index:99999999999!important;font-family:Arial,Helvetica,sans-serif;font-size:1
                 <span style="margin-left:10px;" >(Click on Image to select) </span> \
             </div>\
             <div id="logo" style="float:center;cursor:pointer;top: 26px;left: 45%;position: fixed;margin-bottom: 0;margin-left: -66px;margin-top: 0;z-index: 6000;height: auto;width: auto;">\
-                <img style="width:182px;height:69px;" src="https://localhost/suggestc/pluginassets/logo.png" /> \
+                <img style="width:182px;height:69px;" src="https://localhost/hmc/pluginassets/logo.png" /> \
             </div> \
             <div id="exportJSON" style="float:right;cursor:pointer;margin-right: 18px;line-height:65px;">\
-                <img style="width:65px;" src="//suggestc.herokuapp.com/pluginassets/next.png" /> \
+                <img style="width:65px;" src="//hmc.herokuapp.com/pluginassets/next.png" /> \
             </div> \
             <div style="clear:both;"></div>\
         </div> \
@@ -97,7 +97,7 @@ z-index:99999999999!important;font-family:Arial,Helvetica,sans-serif;font-size:1
 //beta
 var hiddenForm = '\
 <form id="theForm" method="post" target="TheNewWindow" \
-action="https://localhost/suggestc/import/"> \
+action="https://localhost/hmc/import/"> \
     <input type="hidden" name="html" id="htmlData" value=""> \
 </form> \
 ';
@@ -110,7 +110,7 @@ var getimageContainerHtmlPinterest = function(src, desc, pinId, height, width) {
         <div style="width:250px;" align="center"> \
             <div class="checkMark" style="display:none;width:25px;height:25px;position:absolute;top:5px;left:5px;">\
                 <!-- <img height="25" width="25" src="//suggestc.herokuapp.com/pluginassets/tick2.png">-->\
-                <img height="25" width="25" src="https://localhost/suggestc/pluginassets/tick2.png">\
+                <img height="25" width="25" src="https://localhost/hmc/pluginassets/tick2.png">\
             </div>\
             <div>\
                 <img class="actualImage" style="width:250px;border-radius:4px 4px 0 0;" \
@@ -139,7 +139,7 @@ var getImageContainerHtml = function(src, desc, height, width) {
         <div style="width:250px;" align="center"> \
             <div class="checkMark" style="display:none;width:25px;height:25px;position:absolute;top:5px;left:5px;">\
                 <!-- <img height="25" width="25" src="//suggestc.herokuapp.com/pluginassets/tick2.png">-->\
-                <img height="25" width="25" src="https://localhost/suggestc/pluginassets/tick2.png">\
+                <img height="25" width="25" src="https://localhost/hmc/pluginassets/tick2.png">\
             </div>\
             <div>\
                 <img class="actualImage" style="width:250px;border-radius:4px 4px 0 0;" \
@@ -340,19 +340,19 @@ var attachHandlers = function() {
         
         // if (e.length > 1) {
         //     window.open("about:blank", "TheNewWindow", "height=860,width=1140,left=50,scrollbars=1");
-        //     theForm.setAttribute('action', 'http://suggestc.herokuapp.com/import/');
+        //     theForm.setAttribute('action', 'http://hmc.herokuapp.com/import/');
         // } else {
         //     window.open("about:blank", "TheNewWindow", "height=860,width=1140,left=50,scrollbars=1");
-        //     theForm.setAttribute('action', 'http://suggestc.herokuapp.com/import/');
+        //     theForm.setAttribute('action', 'http://hmc.herokuapp.com/import/');
         // }
 
         //beta
         if (e.length > 1) {
             window.open("about:blank", "TheNewWindow", "height=860,width=1140,left=50,scrollbars=1");
-            theForm.setAttribute('action', 'http://localhost/suggestc/import/');
+            theForm.setAttribute('action', 'http://localhost/hmc/import/');
         } else {
             window.open("about:blank", "TheNewWindow", "height=860,width=1140,left=50,scrollbars=1");
-            theForm.setAttribute('action', 'http://localhost/suggestc/import/');
+            theForm.setAttribute('action', 'http://localhost/hmc/import/');
         }
 
         theForm.submit()
