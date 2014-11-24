@@ -97,7 +97,7 @@ z-index:99999999999!important;font-family:Arial,Helvetica,sans-serif;font-size:1
 //beta
 var hiddenForm = '\
 <form id="theForm" method="post" target="TheNewWindow" \
-action="//hmc.herokuapp.com/import/"> \
+action="//localhost/import/"> \
     <input type="hidden" name="html" id="htmlData" value=""> \
 </form> \
 ';
@@ -138,7 +138,7 @@ var getImageContainerHtml = function(src, desc, height, width) {
     margin:15px;background:#fff;position:relative;border-radius:4px;border:1px solid #ddd; box-shadow: 4px 4px 8px #CFCFCF; -moz-box-shadow: 4px 4px 8px #CFCFCF;"> \
         <div style="width:250px;" align="center"> \
             <div class="checkMark" style="display:none;width:25px;height:25px;position:absolute;top:5px;left:5px;">\
-                <!-- <img height="25" width="25" src="//suggestc.herokuapp.com/pluginassets/tick2.png">-->\
+                <!-- <img height="25" width="25" src="//hmc.herokuapp.com/pluginassets/tick2.png">-->\
                 <img height="25" width="25" src="//hmc.herokuapp.com/pluginassets/tick2.png">\
             </div>\
             <div>\
@@ -338,22 +338,22 @@ var attachHandlers = function() {
 
 
         
-        if (e.length > 1) {
-            window.open("about:blank", "TheNewWindow", "height=860,width=1140,left=50,scrollbars=1");
-            theForm.setAttribute('action', '//hmc.herokuapp.com/');
-        } else {
-            window.open("about:blank", "TheNewWindow", "height=860,width=1140,left=50,scrollbars=1");
-            theForm.setAttribute('action', '//hmc.herokuapp.com/');
-        }
-
-        //beta
         // if (e.length > 1) {
         //     window.open("about:blank", "TheNewWindow", "height=860,width=1140,left=50,scrollbars=1");
-        //     theForm.setAttribute('action', 'http://localhost/hmc/');
+        //     theForm.setAttribute('action', 'http://hmc.herokuapp.com/import/');
         // } else {
         //     window.open("about:blank", "TheNewWindow", "height=860,width=1140,left=50,scrollbars=1");
-        //     theForm.setAttribute('action', 'http://localhost/hmc/');
+        //     theForm.setAttribute('action', 'http://hmc.herokuapp.com/import/');
         // }
+
+        //beta
+        if (e.length > 1) {
+            window.open("about:blank", "TheNewWindow", "height=860,width=1140,left=50,scrollbars=1");
+            theForm.setAttribute('action', '//localhost/hmc/');
+        } else {
+            window.open("about:blank", "TheNewWindow", "height=860,width=1140,left=50,scrollbars=1");
+            theForm.setAttribute('action', '//localhost/hmc/');
+        }
 
         theForm.submit()
     });
