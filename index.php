@@ -3,14 +3,14 @@
 <head>
 	<title>HelpMeChoose - Login</title>
 	<link rel="icon" href="http://global.rakuten.com/en/favicon.ico">
-
-<link rel="stylesheet" type="text/css" href="//weloveiconfonts.com/api/?family=zocial">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<!-- <link rel="stylesheet" type="text/css" href="//weloveiconfonts.com/api/?family=zocial"> -->
 <style type="text/css">
 	@charset "utf-8";/* zocial */
-[class*="zocial-"]:before {
+/*[class*="zocial-"]:before {
   font-family: 'zocial', sans-serif;
 }
-
+*/
 
 
 /* ---------- GENERAL ---------- */
@@ -116,7 +116,7 @@ strong {
         <div> 
             
             <div id="logo" style="float:center;cursor:pointer;top: 15px;left: 45%;position: fixed;margin-bottom: 0;margin-left: -66px;margin-top: 0;z-index: 6000;height: auto;width: auto;">
-                <img style="width:190px;height:70px;" src="//localhost/suggestc/pluginassets/logo.png" />
+                <img style="width:190px;height:70px;" src="//hmc.herokuapp.com/pluginassets/logo.png" />
             </div> 
             
             <div style="clear:both;"></div>
@@ -134,7 +134,7 @@ strong {
      <div id="login">
 
 		<p>
-			<a class="facebook-before"><span class="zocial-facebook"></span>
+			<a class="facebook-before"><i class="fa fa-facebook"></i></span>
 
 
 <!--     <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
@@ -148,7 +148,7 @@ strong {
 
 		<p>
 
-			<a class="google-before"><span class="zocial-googleplus"></span></a>
+			<a class="google-before"><i class="fa fa-google-plus"></i></span></a>
 			<button class="google">Google+</button>
 
 		</p>
