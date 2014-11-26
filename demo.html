@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="//global.rakuten.com/en/favicon.ico">
+
+    <title>HelpMeChoose - Demo</title>
+
+<!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+    <!-- Custom styles for this template -->
+    <link href="./css/custom-css.css" rel="stylesheet">
+
+    <style type="text/css">
+
+         .nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+            color: #fff;
+            background-color: #bf0000;
+            }
+
+</style>
+
+<link href="//vjs.zencdn.net/4.10/video-js.css" rel="stylesheet">
+<script src="//vjs.zencdn.net/4.10/video.js"></script>
+
+  <script type="text/javascript">
+  document.createElement('video');document.createElement('audio');document.createElement('track');
+</script>
+
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="header">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+
+            <li role="presentation"><a href="./about.html" class="btn"><span class="glyphicon glyphicon-registration-mark"></span> About</a></li>
+            <li role="presentation" class="active"><a href="#" class="btn"><span class="glyphicon glyphicon-film"></span> Demo</a></li>
+            <li role="presentation"><a href="javascript:window.close();" class="btn"><span class="glyphicon glyphicon-remove-sign"></span> </a></li>
+            
+          </ul>
+        </nav>
+        <h3 class="text-muted"> <img style="width:190px;height:70px;" src="//hmc.herokuapp.com/pluginassets/logo.png"> </h3>
+      </div>
+
+      <div class="jumbotron">
+
+      <video id="example_video_1" class="video-js vjs-default-skin"
+  controls preload="auto" width="auto" height="350"
+  poster="http://video-js.zencoder.com/oceans-clip.png"
+  data-setup='{"example_option":true}'>
+ <source src="http://video-js.zencoder.com/oceans-clip.mp4" type='video/mp4' />
+ <source src="http://video-js.zencoder.com/oceans-clip.webm" type='video/webm' />
+ <source src="http://video-js.zencoder.com/oceans-clip.ogv" type='video/ogg' />
+ <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+</video>
+
+      </div>
+
+
+      <footer class="footer">
+        <p>&copy; Team-Quadra @Rakuten 2014</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
